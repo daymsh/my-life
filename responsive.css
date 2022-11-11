@@ -1,0 +1,42 @@
+
+.contened{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(20px auto);
+    padding: 20px;
+    
+}
+.img1{margin-right: 10px;
+    padding: 70px;}
+.img2{margin-left: 40px;
+    padding: 70px;}
+.contened div{
+    background-color: rgb(15, 15, 15);
+    color: rgb(239, 229, 229);
+    padding: 25px;
+    
+  border: 5px solid rgb(161, 242, 238);
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(33, 159, 201);
+    }
+    
+    ul{
+        list-style-type: circle;
+        font-size: 24px;
+        color: rgb(234, 240, 246);
+        font-weight: bold;
+      }
+      h1{
+        color: blue;
+        font-size: 30px;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+  }

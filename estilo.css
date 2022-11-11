@@ -1,0 +1,128 @@
+body {background-color: rgb(19, 19, 19);
+    color: rgb(249, 242, 242);
+    font-family: 'Poppins', sans-serif;}
+header {background-color: rgb(14, 14, 14);
+        text-align: center;
+        padding: 20px;}
+.header1 {background-color: rgb(248, 241, 241);
+            text-align: center;
+            padding: 20px;}
+h2, p{padding: 10px 20px 5px 30px;
+      font-size: 20px;}
+h2 {border: 8px solid rgb(165, 119, 239);
+     padding: 5px;}
+h5{color: rgb(7, 7, 7);
+    }
+     /*width: 30%;*/
+p {color: rgb(241, 229, 229);
+   padding: 40px;
+  border: 1px solid #18212f;
+  background-color: rgb(12, 9, 43);}
+.pie {background-color: rgb(190, 121, 224);
+        color: rgb(242, 233, 233);
+        text-align: center;
+        padding: 20px;}
+.centrar {display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+          padding-top: 10px;
+          padding-left: 5px;}
+.contenedor{
+            display: grid;
+            grid-template-columns: repeat(3,2fr);
+            grid-gap: 1em;
+            grid-template-rows: minmax(20px auto);
+            padding: 20px;
+        }
+.contenedor div{
+            background-color: rgb(148, 90, 228);
+            color: rgb(12, 12, 12);
+            padding: 2px;
+        }
+nav {overflow: hidden;
+    background-color: #cd82ef;
+    padding: 20px 10px;}
+
+nav a {float: left;
+    color: rgb(13, 12, 12);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;}
+nav a.logo{font-size: 25px;
+            font-weight: bold;}
+nav a:hover{background-color: rgb(194, 231, 238);
+            color:rgb(7, 7, 7)}
+nav a.active{background-color: rgb(247, 245, 252);
+            color: rgb(247, 238, 238);}
+.header-rigth{float: right;}
+.imgC {
+    float: right;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .btn {
+    display: none;
+    position: absolute;
+    right: 20px;
+}
+.btn:hover > span {
+    background-color: #E85860;
+}
+.btn span {
+    display: block;
+    margin: 6px;
+    width: 40px;
+    height: 3px;
+    background: #333;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(8, 9, 37);
+    }
+    ul{
+        list-style-type: circle;
+        font-size: 24px;
+        color: rgb(15, 16, 17);
+        font-weight: bold;
+      }
+      h1{
+        color: blue;
+        font-size: 30px;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+      }
+  }
+  @media only screen and (max-width: 450px) {
+    body {
+      background-color: rgb(141, 130, 87);
+      color: black;
+    }
+    ul{
+        list-style-type: circle;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      h1{
+        color: blue;
+        font-size: 30px;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+      }
+  }
